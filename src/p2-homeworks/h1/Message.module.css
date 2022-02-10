@@ -1,0 +1,45 @@
+.message {
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+}
+
+.message .item img {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #090000;
+    position:relative;
+}
+
+.message .item {
+    margin: 15px;
+}
+
+.message .item .comment {
+    width: 200px;
+    height: 100px;
+    background-color: #313131;
+    border: 1px solid #090000;
+    border-radius: 10px 10px 10px 0px;
+}
+
+.message .item .comment p {
+    line-height: 0.5;
+}
+
+.message .item .comment .author {
+    margin-left: 10px;
+    color: #aa0fff;
+}
+
+.message .item .comment .comment_text {
+    margin-left: 10px;
+    color: white;
+}
+
+.message .item .comment .time {
+    color: dimgrey;
+    text-align: right;
+    margin-right: 10px;
+}
